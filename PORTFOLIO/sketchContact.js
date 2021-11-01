@@ -19,7 +19,7 @@ function draw(){
   var dirZ = -0.2;
 
   background(0);
-  fill(255);
+  fill(100,255,0);
   noStroke();
   directionalLight(0, 100, 255, dirX, dirY, dirZ);
   specularMaterial(250);
