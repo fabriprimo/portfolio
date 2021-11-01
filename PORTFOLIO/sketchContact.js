@@ -1,3 +1,7 @@
+  var r = 0;
+  var g = 100;
+  var b = 255;
+
 function windowResized(){
     
     resizeCanvas(windowWidth, windowHeight);
@@ -33,6 +37,14 @@ function draw(){
   //box(400, 100, 100);
   torus(200, 50, 200, 200);
   pop();
+  
+}
+
+function keyPressed() {
+
+    r = random(255);
+    g = random(255);
+    b = random(255);
   
 }
 
