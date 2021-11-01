@@ -21,13 +21,17 @@ function draw(){
   background(0);
   fill(255);
   noStroke();
-  directionalLight(255, 255, 255, dirX, dirY, dirZ);
+  directionalLight(0, 100, 255, dirX, dirY, dirZ);
+  specularMaterial(250);
+  shininess(50);
+  
   push();
+
   //rotateY(radians(frameCount));
   //rotateX(radians(-frameCount));
   //rotateZ(radians(frameCount));
   //box(400, 100, 100);
-  sphere(200, 200, 200);
+  torus(200, 50, 200, 200);
   pop();
   
 }
