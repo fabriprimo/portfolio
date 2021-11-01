@@ -2,7 +2,7 @@ let moon;
 
 function preload() {
   // Load model with normalise parameter set to true
-  teapot = loadModel('assets/Moon.obj', true);
+  moon = loadModel('assets/Moon.obj', true);
 }
 
 function windowResized(){
