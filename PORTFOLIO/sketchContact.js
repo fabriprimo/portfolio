@@ -23,7 +23,6 @@ function draw(){
   noStroke();
   directionalLight(255, 255, 255, dirX, dirY, dirZ);
   push();
-  translate(width/2, height/2);
   //rotateY(radians(frameCount));
   //rotateX(radians(-frameCount));
   //rotateZ(radians(frameCount));
