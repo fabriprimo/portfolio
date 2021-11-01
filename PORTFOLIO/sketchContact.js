@@ -27,7 +27,7 @@ function draw(){
   //rotateX(radians(-frameCount));
   //rotateZ(radians(frameCount));
   //box(400, 100, 100);
-  sphere(200);
+  sphere(400);
   pop();
   
 }
