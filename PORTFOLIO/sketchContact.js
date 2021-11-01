@@ -25,7 +25,7 @@ function draw(){
   background(0);
   fill(255);
   noStroke();
-  directionalLight(0, 100, 255, dirX, dirY, dirZ);
+  directionalLight(r, g, b, dirX, dirY, dirZ);
   specularMaterial(250);
   shininess(50);
   
