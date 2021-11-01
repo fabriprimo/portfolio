@@ -18,7 +18,7 @@ function draw(){
   var dirY = map(mouseY,0,height,1,-1);
   var dirZ = -0.2;
 
-  background(100,255,0);
+  background(0);
   fill(255);
   noStroke();
   directionalLight(0, 100, 255, dirX, dirY, dirZ);
