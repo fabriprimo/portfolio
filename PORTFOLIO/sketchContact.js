@@ -27,8 +27,8 @@ function draw(){
   
   push();
 
-  //rotateY(radians(frameCount));
-  //rotateX(radians(-frameCount));
+  rotateY(radians(map(mouseX, 0, width, -100, 100)));
+  rotateX(radians(map(mouseY, 0, width, -100, 100)));
   //rotateZ(radians(frameCount));
   //box(400, 100, 100);
   torus(200, 50, 200, 200);
