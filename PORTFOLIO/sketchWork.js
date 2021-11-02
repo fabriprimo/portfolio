@@ -1,12 +1,7 @@
-function setup(){
-createCanvas(windowWidth,windowHeight);
+document.getElementById("myVid").addEventListener("mouseover", function() {
+	this.play();
+});
 
-
-}
-function draw(){
-  background(0);
-  
- 
-
-}
-
+document.getElementById("myVid").addEventListener("mouseleave", function() {
+	this.pause();
+});
