@@ -43,7 +43,7 @@ function draw(){
   
   pop();
   
-  torus(200, 50, 200, 200);
+  torus(300, 5, 200, 200);
   
 
   
