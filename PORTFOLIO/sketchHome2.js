@@ -68,8 +68,17 @@ var particles = [];
 
 var flowfield;
 
+
+function windowResized(){
+    
+    resizeCanvas(windowWidth, windowHeight);
+
+}
+
 function setup() {
-  createCanvas(1600, 800);
+  createCanvas(windowWidth, windowHeight);
+  canvas.position(0, 0);
+  canvas.style('z-index', '-1');
   cols = floor(width/scl);
   rows = floor(height/scl);
   fr = createP('');
