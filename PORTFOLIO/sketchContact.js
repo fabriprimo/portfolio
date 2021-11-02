@@ -53,9 +53,14 @@ function draw(){
 
 function keyPressed() {
 
-    r = random(255);
-    g = random(255);
-    b = random(255);
+    r = Math.round(random(255));
+    g = Math.round(random(255));
+    b = Math.round(random(255));
   
+    print(r, g, b);
+  
+  
+  
+
 }
 
