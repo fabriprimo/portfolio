@@ -1,12 +1,7 @@
 var r = 0;
   var g = 100;
   var b = 255;
-  let img;
 
-function preload(){
- img = loadImage('text.png'); 
-  
-}
 
 
 
@@ -50,11 +45,7 @@ function draw(){
   
   torus(200, 50, 200, 200);
   
-    push();
-  translate(0,0,100);
- 	texture(img);
-  plane(200,200);
-  pop();
+
   
 
   
