@@ -1,4 +1,4 @@
-var r = 0;
+  var r = 0;
   var g = 100;
   var b = 255;
 
@@ -43,7 +43,7 @@ function draw(){
   
   pop();
   
-  torus(300, 5, 200, 200);
+  torus(300, 20, 200, 200);
   
 
   
