@@ -52,12 +52,25 @@ function draw(){
 }
 
 function keyPressed() {
+  
+  if (keyCode != W){
+  
 
     r = Math.round(random(255));
     g = Math.round(random(255));
     b = Math.round(random(255));
+  }
+  
+  else {
+    
+    r = 0;
+    g = 0;
+    b = 0;
+  }
+    
   
     print(r, g, b);
+    
   
   
   
