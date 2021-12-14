@@ -1,5 +1,5 @@
-  var r = 0;
-  var g = 100;
+  var r = 255;
+  var g = 255;
   var b = 255;
 
 
