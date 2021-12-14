@@ -61,11 +61,11 @@ function keyPressed() {
     b = Math.round(random(255));
   }
   
-  else {
+  else if ( keyCode === W) {
     
-    r = 0;
-    g = 0;
-    b = 0;
+    r = 255;
+    g = 255;
+    b = 255;
   }
     
   
