@@ -9,7 +9,7 @@
 
 .firstRow {
     
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 
@@ -22,9 +22,58 @@
 
 .halfRow {
     
-    margin-top: -300px;
+    margin-top: -400px;
+}
+
+.otherRow {
+    
+    margin-top: 5px;
 }
      
+.a {
+    font-family: "Work Sans", sans-serif;
+}
 
+.projectName {
+    
+    position: relative;
+    margin-top: 15px;
+}
 
+.projects {
+    position: relative;
+}
 
+.projects .overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    opacity: 0;
+    
+    transition: all ease-in-out 0.3s;
+   
+}
+
+.projects:hover .overlay {
+    opacity: 1;
+}
+
+#box {
+    
+width: 1920px;
+height: 800px;
+position: relative;
+    
+}
+
+.bottom {
+    
+position: absolute;
+bottom: 0px;
+left: 20px;
+    
+}
