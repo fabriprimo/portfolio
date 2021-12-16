@@ -86,7 +86,7 @@ left: 30px;
 .parallaxDea {
 
   background-image: url("assets/Intro_Solitudini_Prima.gif");
-  min-height: 800px; 
+  min-height: 900px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ left: 30px;
 .parallaxDegen {
 
   background-image: url("assets/DEGEN_VISUAL_LOOP.gif");
-  min-height: 800px; 
+  min-height: 900px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@ left: 30px;
 .parallaxCafe {
 
   background-image: url("assets/CAFE_MULLER_SITO.gif");
-  min-height: 800px; 
+  min-height: 900px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -120,7 +120,7 @@ left: 30px;
 .parallaxSbarau {
 
   background-image: url("assets/SBARAU_2.gif");
-  min-height: 800px; 
+  min-height: 900px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
