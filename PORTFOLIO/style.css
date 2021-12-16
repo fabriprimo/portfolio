@@ -8,6 +8,13 @@ mix-blend-mode: exclusion;
 }
 
 
+
+.body {
+    
+background-color: white;
+    
+}
+
 .firstRow {
     
     margin-top: 150px;
@@ -30,7 +37,11 @@ mix-blend-mode: exclusion;
     
     margin-top: 5px;
 }
-     
+
+.inRow{
+    
+    margin-top: 25px;
+}
 a {
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
@@ -69,17 +80,47 @@ a {
 position: fixed;
 bottom: 0px;
 left: 30px;
-    
+
 }
 
+.parallaxDea {
+
+  background-image: url("assets/Intro_Solitudini_Prima.gif");
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 .parallaxDegen {
-  /* The image used */
+
   background-image: url("assets/DEGEN_VISUAL_LOOP.gif");
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  /* Set a specific height */
-  min-height: 1000px; 
+}
 
-  /* Create the parallax scrolling effect */
+
+
+.parallaxCafe {
+
+  background-image: url("assets/CAFE_MULLER_SITO.gif");
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallaxSbarau {
+
+  background-image: url("assets/SBARAU_2.gif");
+  min-height: 800px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
