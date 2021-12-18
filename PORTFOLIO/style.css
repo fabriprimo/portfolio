@@ -128,3 +128,9 @@ left: 30px;
   background-size: cover;
 
 }
+
+
+@media only screen and (max-device-width: 1366px) {
+  .parallaxDegen {
+    background-attachment: scroll;
+  }
