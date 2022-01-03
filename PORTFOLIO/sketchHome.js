@@ -35,13 +35,13 @@ function draw() {
   background(0);
   
 
-if (frameCount < 200) {
+if (frameCount < 100) {
     
     push();
       rectMode(CENTER);
     translate(width/2, height/2);
     fill(180);
-      rect(0, 0, frameCount*2, 27)
+      rect(0, 0, frameCount*4, 27)
       pop(); 
    push();
     rectMode(CENTER);
